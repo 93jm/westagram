@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "variables.css";
+@import "login_style.css";
+
+body {
+  background-color: #fafafa;
+}

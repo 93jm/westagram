@@ -3,7 +3,7 @@
 @import "reset.css";
 @import "variables.css";
 @import "login_style.css";
-@import "main.css";
+@import "main_header.css";
 
 body {
   background-color: #fafafa;

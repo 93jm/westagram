@@ -3,7 +3,12 @@
 @import "reset.css";
 @import "variables.css";
 @import "login_style.css";
+@import "main.css";
 
 body {
   background-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
 }

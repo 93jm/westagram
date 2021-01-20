@@ -1,11 +1,10 @@
 .nav_container {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   justify-content: center;
-  /* margin-top: 12px;
-  margin-bottom: 12px; */
   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
 }
 
 .nav_container_sub {
@@ -59,21 +58,39 @@
   height: 25px;
   background-color: #fafafa;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  /* color: rgba(0, 0, 0, 0.1); */
-  /* padding-left: 3px; */
   text-align: center;
 }
 
 .nav_center i {
   color: rgba(0, 0, 0, 0.5);
-  font-size: small;
+  font-size: x-small;
   position: absolute;
-  top: 6px;
-  left: 57px;
+}
+
+.nav_center .search_icon {
+  top: 8px;
+  left: 50px;
+}
+
+.nav_center .cancle_icon {
+  right: 10px;
+  top: 8px;
+  display: none;
+}
+
+.center_search:focus + .search_icon {
+  left: 10px;
 }
 
 .center_search:focus {
-  text-align: ;
+  text-align: left;
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.center_search:focus ~ .cancle_icon {
+  display: block;
 }
 
 /* nav right */

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import "reset.css";
+
+@import "login.css";
+
+@import "main_mediaqueries.css";
+@import "main_nav.css";
+@import "main_content.css";
+
+body {
+  background-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#main_layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+/* media queries */
+
+/* main */
+
+@media screen and (max-width: 950px) {
+  .main_content_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main_content_left > .content_peed {
+    width: auto;
+  }
+  .content_peed_text_reply * {
+    font-size: small;
+  }
+}
+
+/* nav, story */
+
+@media screen and (max-width: 630px) {
+  .nav_center_search {
+    display: none;
+  }
+
+  .main_content_left > .content_story {
+    display: none;
+  }
+}
